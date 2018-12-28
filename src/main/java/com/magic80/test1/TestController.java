@@ -13,7 +13,7 @@ public class TestController {
     @RequestMapping(value = "/test", method = RequestMethod.GET)
     public Map<String, String> test() {
         Map<String, String> map = new HashMap<>();
-        map.put("a", "b");
+        map.put("a", "bdddddddddd");
         return map;
     }
 }
